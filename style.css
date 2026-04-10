@@ -79,16 +79,16 @@ body {
 /* --- ARCHIVE LAYOUT --- */
 .archive-container { display: flex; justify-content: center; align-items: center; height: 100vh; }
 
-.archive-box {
-    background: rgba(10, 5, 20, 0.85);
-    padding: 35px;
-    border: 1px solid #4b0082;
+.archive-box { 
+    background: rgba(10, 5, 20, 0.85); 
+    padding: 35px; 
+    border: 1px solid #4b0082; 
     width: 750px; /* Made it wider for images */
     max-width: 90vw;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    backdrop-filter: blur(10px);
+    height: 75vh; 
+    display: flex; 
+    flex-direction: column; 
+    backdrop-filter: blur(10px); 
 }
 
 .glitch-text { font-family: 'Orbitron', sans-serif; color: #ff0055; letter-spacing: 5px; }
@@ -97,10 +97,10 @@ body {
 .news-scroll::-webkit-scrollbar { width: 3px; }
 .news-scroll::-webkit-scrollbar-thumb { background: #ff0055; }
 
-article {
-    border-left: 1px solid #ff0055;
-    padding-left: 20px;
-    margin-bottom: 40px;
+article { 
+    border-left: 1px solid #ff0055; 
+    padding-left: 20px; 
+    margin-bottom: 40px; 
     display: flex;
     flex-direction: column;
 }
