@@ -6,6 +6,7 @@
     <title>| Rvn | The Discord Situation.</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Red+Hat+Mono:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.youtube.com/iframe_api"></script>
 </head>
 <body oncontextmenu="return false;">
 
@@ -14,7 +15,7 @@
     <p style="font-size: 0.7rem; margin-top: 15px; color: #4b0082;">[ Click to enter. ]</p>
 </div>
 
-<iframe id="lofi-player" style="display:none" width="0" height="0" src="" frameborder="0" allow="autoplay"></iframe>
+<div id="lofi-player" style="position: absolute; visibility: hidden;"></div>
 
 <canvas id="bg-canvas"></canvas>
 <div id="custom-cursor"></div>
@@ -24,6 +25,11 @@
     <div class="status-info">
         <span id="discord-name">CONNECTING...</span>
         <div id="current-activity">FETCHING_DATA</div>
+
+        <div class="volume-container">
+            <span class="vol-icon">VOL</span>
+            <input type="range" id="volume-control" min="0" max="100" value="50">
+        </div>
     </div>
     <div id="discord-status" class="status-dot"></div>
 </div>
